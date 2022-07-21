@@ -19,3 +19,5 @@ delete student.age;
 
 //methods to access the properties of JS objects
 console.log(student.result(), student.age, student['hobbies'].movies, student.hobbies['fav place']);
+
+console.log(student.hobbies.movies);
