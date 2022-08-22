@@ -28,5 +28,12 @@ $(document).ready(function(){
 	//targetting even/odd elements
 
 	$('.target:even').addClass('animate__animated animate__swing');
+
+
+	if (navigator.geolocation) {
+		navigator.geolocation.getCurrentPosition(function(data){
+			$('.geoData').html("Latitude: " + data.coords.latitude + " and Longitude: "+ data.coords.longitude);
+		});
+	}
 	
 });
