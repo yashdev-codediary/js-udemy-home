@@ -7,11 +7,23 @@
 </head>
 <body>
 <h5>Please see console</h5>
+<p id="demo" class="sampleDot"></p>
+<button onclick="magicButton()">Click Magic</button>
 </body>
 <!-- just uncommen the js link to get the result -->
-<script type="text/javascript" src="init.js"></script>
+
 <!-- <script type="text/javascript" src="object-and-scope.js"></script> -->
 <!-- <script type="text/javascript" src="js-arrays.js"></script> -->
 <!-- <script type="text/javascript" src="functions.js"></script> -->
-<script type="text/javascript" src="stringjs.js"></script>
+<!-- <script type="text/javascript" src="stringjs.js"></script> -->
+<!-- <script type="text/javascript" src="function-patterns.js"></script> -->
+<script type="text/javascript">
+    function magicButton()
+    {
+        var part = document.createElement("h3");
+        var magicPart = document.body.appendChild(part);
+        magicPart.innerText = "Hey this is me";
+
+    }
+</script>
 </html>
