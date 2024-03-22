@@ -8,7 +8,7 @@ We can change the property of reference type object but cannot with primitive ty
 
 //example of reference type object
 var student = {
-    name: "Rahul"
+    name: "Pankaj"
 };
 
 //we can add/update the property of student object
