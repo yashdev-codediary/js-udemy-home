@@ -1,9 +1,7 @@
-//following code will show the use of let variable in JS
+var name = 'mountain';
+var height = 8778;
 
-let nameOfStudent = "Yash";
-let age = 30;
-let city = "Pune";
+console.log(name);
 
-let result = `${nameOfStudent} is ${age} years old and lives in ${city}`;
-
-alert(result);
+var info = {name, height};
+console.log(info);
