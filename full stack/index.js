@@ -1,7 +1,9 @@
-var name = 'mountain';
-var height = 8778;
+var info = {
+	name: 'everest',
+	job: 'keeper',
+	output() {
+		console.log(`${this.name} has role of ${this.job}.`);
+	}
+};
 
-console.log(name);
-
-var info = {name, height};
-console.log(info);
+info.output();
